@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: silver;*/
+}
+
+.calculator {
+    border: 1px solid silver;
+    /*background-color: darksalmon;*/
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+.screen {
+    width: 224px;
+    background-color: azure;
+    border: 1px solid silver;
+    border-radius: 2px;
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+}
+
+.screen:hover {
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
+    filter: blur(10px);
+    transition: 5s;
+}
+
+button {
+    background-color: white;
+    border: 1px solid silver;
+    /*color: #0f111a;*/
+    font-size: 40px;
+    width: 58px;
+    height: 58px;
+    /*border-radius: 25px;*/
+    /*margin: 4px;*/
+}
+
+button:hover {
+    background-color: powderblue;
+    filter: glow(10px);
+    transition: 0.5s;
+    /*background: inherit;*/
+    /*box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);*/
+    /*filter: blur(10px);*/
+}
+
+button:active {
+    background-color: white;
+}
+
+#equal {
+    background-color:azure ;
+}
+
+#equal:hover {
+/*    background-color: darksalmon;*/
+/*transition: 1s;*/
+}
+
+#clear {
+    width: 100%;
+    background-color:  powderblue;
+}
+
+#clear:hover {
+    /*background-color: darksalmon;*/
+    /*transition: 1s;*/
+}
+
+.bug {
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
+    filter: blur(100px);
+    transition: 10s;
+}
