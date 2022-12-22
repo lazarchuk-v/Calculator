@@ -33,6 +33,7 @@ function calculate(button) {
 buttons.forEach(button => button.addEventListener('click', () => calculate(button)))
 
 VanillaTilt.init(document.querySelector(".calculator"), {
+    transition:             true,
     max: 15,
     speed: 400,
     glare: true,
