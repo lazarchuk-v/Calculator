@@ -18,8 +18,8 @@ function calculate(button) {
         screen.classList.remove('bug')
     } else if (calculation.length > 10){
         console.log('hi! I am only 10digit screen, and your int was not in my plans')
-        let screen = document.querySelector('.screen')
-        screen.classList.add('bug')
+        // let screen = document.querySelector('.screen')
+        // screen.classList.add('bug')
           } else {
         let screen = document.querySelector('.screen')
         screen.classList.remove('bug')
