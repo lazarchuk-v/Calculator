@@ -44,6 +44,7 @@ body {
     text-align: end;
     padding: 4px;
     font-family: monospace;
+    color: #0f111a;
 }
 
 .screen:hover {
@@ -99,8 +100,10 @@ button:active {
     width: 100%;
     background-color:  rgba(213, 43, 42,0.1);
     /*border-radius: 50px;*/
-    font-family: monospace;
-    font-size: 30px;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 25px;
+    color: #0f111a;
+    /*font-weight: bold;*/
 }
 
 #clear:hover {
