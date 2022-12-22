@@ -84,7 +84,7 @@ button:active {
 
 #equal {
     background-color:  rgba(213, 43, 42,0.1);
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 
 }
 
@@ -96,7 +96,7 @@ button:active {
 #clear {
     width: 100%;
     background-color:  rgba(213, 43, 42,0.1);
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 }
 
 #clear:hover {
