@@ -61,7 +61,7 @@ button {
     font-size: 40px;
     width: 58px;
     height: 58px;
-    /*border-radius: 25px;*/
+    border-radius: 10px;
     /*margin: 4px;*/
 background: transparent;
 
