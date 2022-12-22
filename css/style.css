@@ -3,14 +3,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image:url("/images/abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     /*background: silver;*/
 }
 
 .calculator {
-    border: 1px solid silver;
+    /*border: 1px solid silver;*/
     /*background-color: darksalmon;*/
     padding: 20px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
+
+    background: rgba(200,200,255, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(200,200,255, 0.3);
+    border-left: 1px solid rgba(200,200,255, 0.3);
+    /*box-shadow: 15px 15px rgba(200,200,255, 0.2);*/
 
 }
 
@@ -18,15 +30,15 @@ body {
     width: 232px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid white;
-    border-radius: 4px;
+    /*border: 1px solid white;*/
+    /*border-radius: 4px;*/
 
 }
 
 .screen {
     width: 224px;
     background-color: azure;
-    border: 1px solid silver;
+    border: none;
     border-radius: 2px;
     font-size: 40px;
     text-align: end;
@@ -38,21 +50,27 @@ body {
     box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
     filter: blur(10px);
     transition: 5s;
+    border: none;
 }
 
 button {
-    background-color: white;
-    border: 1px solid silver;
+    /*background-color: white;*/
+    /*border: 0.5px solid lightsteelblue;*/
+    border: none;
     /*color: #0f111a;*/
     font-size: 40px;
     width: 58px;
     height: 58px;
     /*border-radius: 25px;*/
     /*margin: 4px;*/
+background: transparent;
+
+
 }
 
 button:hover {
-    background-color: powderblue;
+    background: transparent;
+    background-color: rgba(200,200,255,0.3);
     filter: glow(10px);
     transition: 0.5s;
     /*background: inherit;*/
@@ -65,21 +83,22 @@ button:active {
 }
 
 #equal {
-    background-color:azure ;
+    background-color:  rgba(213, 43, 42,0.1);
+
 }
 
 #equal:hover {
-/*    background-color: darksalmon;*/
+    background-color:  rgba(213, 43, 42,0.3);
 /*transition: 1s;*/
 }
 
 #clear {
     width: 100%;
-    background-color:  powderblue;
+    background-color:  rgba(213, 43, 42,0.1);
 }
 
 #clear:hover {
-    /*background-color: darksalmon;*/
+    background-color:  rgba(213, 43, 42,0.3);
     /*transition: 1s;*/
 }
 
