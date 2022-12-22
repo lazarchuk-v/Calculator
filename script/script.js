@@ -16,7 +16,7 @@ function calculate(button) {
         screenDisplay.textContent = eval(accumulativeCalculation)
         let screen = document.querySelector('.screen')
         screen.classList.remove('bug')
-    } else if (calculation.length > 10){
+    } else if (calculation.length > 9){
         console.log('hi! I am only 10digit screen, and your int was not in my plans')
         // let screen = document.querySelector('.screen')
         // screen.classList.add('bug')

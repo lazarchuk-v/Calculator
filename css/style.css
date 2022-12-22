@@ -37,12 +37,13 @@ body {
 
 .screen {
     width: 224px;
-background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.2);
     border: none;
     border-radius: 7px;
     font-size: 40px;
     text-align: end;
     padding: 4px;
+    font-family: monospace;
 }
 
 .screen:hover {
@@ -58,12 +59,13 @@ button {
     /*border: 0.5px solid lightsteelblue;*/
     border: none;
     /*color: #0f111a;*/
-    font-size: 40px;
+    font-size: 30px;
     width: 58px;
     height: 58px;
     border-radius: 10px;
     /*margin: 4px;*/
-background: transparent;
+    background: transparent;
+    font-family: "Open Sans";
 
 
 }
@@ -97,6 +99,8 @@ button:active {
     width: 100%;
     background-color:  rgba(213, 43, 42,0.1);
     /*border-radius: 50px;*/
+    font-family: monospace;
+    font-size: 30px;
 }
 
 #clear:hover {
