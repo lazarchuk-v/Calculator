@@ -33,4 +33,4 @@ This code provides a basic implementation of a calculator in JavaScript. It demo
 
 If you have any questions or would like to discuss any opportunities, please don't hesitate to reach out to me. I look forward to hearing from you!
 
-Thank you for taking the time to review my repository.
+<b>Thank you for taking the time to review my repository.</b>
