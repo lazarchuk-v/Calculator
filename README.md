@@ -8,6 +8,8 @@ I am a JavaScript developer seeking a new opportunity. This repository showcases
 🧮 Project: Calculator
 -------------------
 
+https://specvova-calc.netlify.app
+
 The calculator project is a simple calculator that performs basic arithmetic operations. The calculator has a screen and a set of buttons that trigger the calculation when clicked. The code is written in JavaScript and uses the DOM API to interact with the HTML elements of the calculator.
 
 ☝️ Key Features
