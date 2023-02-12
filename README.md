@@ -1,12 +1,12 @@
-Hello and welcome to my GitHub repository!</br>
+👋 Hello and welcome to my GitHub repository!</br></br>
 I am a JavaScript developer seeking a new opportunity. This repository showcases my skills and experience in writing clean, efficient, and well-documented code.
 
-Project: Calculator
+🧮 Project: Calculator
 -------------------
 
 The calculator project is a simple calculator that performs basic arithmetic operations. The calculator has a screen and a set of buttons that trigger the calculation when clicked. The code is written in JavaScript and uses the DOM API to interact with the HTML elements of the calculator.
 
-Key Features
+☝️ Key Features
 ------------
 
 -   The calculator can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
@@ -20,7 +20,7 @@ The `calculate` function is called when a button is clicked. The value of the cl
 
 Finally, an event listener is added to each button to trigger the `calculate` function when the button is clicked.
 
-Conclusion
+📑 Conclusion
 ----------
 
 This code provides a basic implementation of a calculator in JavaScript. It demonstrates my skills in using the DOM API to interact with HTML elements, handling user input, and writing clean, efficient, and well-documented code. I am confident that my skills and experience will enable me to tackle more complex projects and contribute to the development of successful applications.
