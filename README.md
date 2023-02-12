@@ -1,5 +1,9 @@
-👋 Hello and welcome to my GitHub repository!</br></br>
+👋 Hello and welcome to my GitHub repository!
+-------------------
+
 I am a JavaScript developer seeking a new opportunity. This repository showcases my skills and experience in writing clean, efficient, and well-documented code.
+</br>
+</br>
 
 🧮 Project: Calculator
 -------------------
